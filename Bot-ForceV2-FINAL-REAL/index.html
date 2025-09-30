@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Tela inicial -->
+    <section class="conteiner" id="home">
+        <header>
+            <h1 class="titulo-header">Fênix</h1>
+            <nav>
+                <ul>
+                    <li><a class="texto-header" href="#robo">Robô</a></li>
+                    <li><a class="texto-header" href="#galeria">Imagens</a></li>
+                    <li><a class="texto-header" href="#arma">Arma</a></li>
+                    <li><a class="texto-header" href="#hardware">Componentes</a></li>
+                    <li><a class="texto-header" href="#videos">Videos</a></li>
+                    <li><a class="texto-header" href="#grupo">Quem somos</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div class="hero">
+
+            <img class="foto" src="./image/fotos_robo/Foto_diagonal_1.jpg" alt="Foto de demostração do robô Fênix">
+            <h2>O futuro do aprendizado e da diversão. Conheça Fênix.</h2>
+            <p>Bem-vindo ao site do projeto Fênix!
+                Conhecer em detalhes o robô que desenvolvemos com tecnologia, trabalho em equipe e criatividade. Explore
+                nosso site e descubra mais sobre como transformamos ideias em movimento. Afinal, acreditamos no poder do
+                reinventar.</p>
+        </div>
+    </section>
+
+    <!-- Apresntação Robô -->
+    <section class="conteiner" id="robo">
+        <div class="centralizacao display-columns">
+            <h1>Apresentação Fênix</h1>
+
+            <div class="align-items-center display-rows gap padding-lateral ">
+
+                <img class="foto" src="./image/fotos_robo/Foto_frontal.jpg" alt="">
+
+                <p class="texto">O Fênix é um robô de batalha desenvolvido com Arduino, projetado para competições onde
+                    o objetivo é estourar o balão do oponente. Seu sistema de ataque consiste em uma arma em formato de
+                    leque com agulhas, ativada automaticamente por um sensor de contato. O projeto foi concebido para
+                    aliar tecnologia, diversão e aprendizado, com potencial para inspirar adaptações para entretenimento
+                    e ensino, fomentando a criatividade na área da robótica.</p>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- Imagens do robô -->
+    <section class="conteiner" id="galeria">
+
+        <div class="centralizacao display-columns gap">
+            <h1>Galeria de imagens</h1>
+
+            <div class="conteiner-grid-1">
+                <div>
+                    <img class="imagem" src="./image/fotos_robo/Foto_frontal.jpg"
+                        alt="Foto de demostração do robô Fênix">
+                </div>
+                <div>
+                    <img class="imagem" src="./image/fotos_robo/Foto_frontal_armado.jpg"
+                        alt="Foto de demostração do robô Fênix">
+                </div>
+                <div>
+                    <img class="imagem" src="./image/fotos_robo/Foto_trazera_diagonal_2.jpg"
+                        alt="Foto de demostração do robô Fênix">
+                </div>
+                <div>
+                    <img class="imagem" src="./image/fotos_robo/Foto_diagonal_2.jpg"
+                        alt="Foto de demostração do robô Fênix">
+                </div>
+                <div>
+                    <img class="imagem" src="./image/fotos_robo/foto_interna_2.jpg"
+                        alt="Foto de demostração do robô Fênix">
+                </div>
+                <div>
+                    <img class="imagem" src="./image/fotos_robo/Foto_diagonal_1.jpg"
+                        alt="Foto de demostração do robô Fênix">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Explicação do sistema de arma -->
+    <section class="conteiner" id="arma">
+
+        <div class="centralizacao display-columns">
+            <h1>Sistema de arma</h1>
+
+            <div class="align-items-center display-rows gap padding-lateral">
+                <p>Seu poder ofensivo reside em uma ameaçadora arma em formato de leque, com agulhas afiadas em suas
+                    extremidades. Impulsionado por um motor dedicado, o mecanismo executa um movimento rápido e preciso.
+                    A ativação do ataque é instantânea, disparada ao menor toque nos sensores de contato
+                    estrategicamente posicionados nas laterais do robô.</p>
+
+                <img class="foto" src="./image/fotos_robo/Foto_frontal_armado.jpg"
+                    alt="Foto de demostração do robô Fênix">
+            </div>
+        </div>
+    </section>
+
+    <!-- apresentação do hardware -->
+    <section class="conteiner" id="hardware">
+
+        <div class="centralizacao display-columns">
+            <h1>A Construção do Fénix</h1>
+
+            <div class="align-items-center display-rows gap padding-lateral">
+                <p>A jornada da Fênix foi guiada pela engenharia e pela funcionalidade. Foram feitos protótipos para
+                    otimizar o chassi, calibrar o controle via Bluetooth e aperfeiçoar o mecanismo do leque acionado por
+                    chaves de fim de curso. O sistema, controlado por um Arduino Mega, utiliza dois motores para as
+                    rodas, um servo para a arma, LEDs RGB para estética e um LED indicador de funcionamento. A
+                    alimentação é feita por seis pilhas, com chave liga/desliga para controle de energia, tudo projetado
+                    para máximo desempenho em combate.</p>
+                <img class="foto" src="./image/fotos_robo/Foto_interna.jpg" alt="Foto de demostração do robô Fênix">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 2 videos do robô -->
+    <section class="conteiner" id="videos">
+
+        <div class="centralizacao display-columns gap ">
+            <h1>Videos do robô</h1>
+
+            <div class="conteiner-grid-2">
+
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GvRIBgcK3XA?si=SZvYqj2OzHQY1JoZ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/O-MBLy8c_ls?si=cQkq_-O8f1dgZroe"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Apresentação do grupo -->
+    <section class="conteiner" id="grupo">
+
+        <div class=" display-columns hero">
+            <h1>Quem somos</h1>
+
+            <p>Com a tecnologia em nosso DNA, somos uma equipe apaixonada que está sempre em busca de inovação e de
+                novos desafios.</p>
+
+            <div class="display-rows gap">
+                <div class="apresentacao-grupo display-columns">
+                    <img class="imagem" src="./image/foto_grupo/Livia img.jpg" alt="Foto de Lívia Rosa">
+                    <h2>Lívia Rosa</h2>
+                    <p>Lider tecnica da equipe</p>
+                </div>
+
+                <div class="apresentacao-grupo display-columns">
+                    <img class="imagem" src="./image/foto_grupo/Felipe img.jpg" alt="Foto de Felipe Alves">
+                    <h2>Felipe Alves</h2>
+                    <p>Gerente tecnico</p>
+                </div>
+
+                <div class="apresentacao-grupo display-columns">
+                    <img class="imagem" src="./image/foto_grupo/Murilo img.jpg" alt="Foto de Murilo Lopes">
+                    <h2>Murilo Lopes</h2>
+                    <p>Gerente tecnico</p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <li><a class="titulo-header" href="#home">Fênix</a></li>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
